@@ -1,3 +1,5 @@
+//static block
+
 public class Runner1{
 	public static void main(String[] args){
 		Television television = new Television("32s","Tizen","QLED",4.8f);

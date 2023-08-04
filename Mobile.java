@@ -1,3 +1,5 @@
+//class and object
+
 public class Mobile{
    static String brandName;
    static String batteryCapacity;

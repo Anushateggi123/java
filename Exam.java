@@ -1,3 +1,5 @@
+//Final variables
+
 public class Exam{
 	final static int totalNumberOfSubjects = 3;
 	final static String inventedBy = "ptloemy";

@@ -1,3 +1,4 @@
+//static and non static
 public class School{
 	static String name;
 	static String principleName;

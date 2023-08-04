@@ -1,0 +1,64 @@
+public class Telephone{
+	public static void main(String[] args){
+	boolean returnedResult = isPrimeNumber(13);
+	int addedValue = add(10,20);
+	System.out.println("added Value");
+	boolean result = checkTheNo(-1);
+	System.out.println("result");
+	float multipledValue = mul(10f,20f);
+	System.out.println(multipled Value");
+	long number = turnOn(12345678l);
+	
+	
+	
+	
+	
+	
+	
+	}
+	public static boolean isPrimeNumber(int number){
+		if(num%2==0){
+			System.out.println("No is prime number");
+			return true;
+		}
+		else{
+			System.out.println("No is not prime number");
+			return false;
+			}
+	}
+	public Static int add(int a , int b){
+		int c= a+b;
+		if(c>=10){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	public static boolean checkTheNo(int number){
+		if(number>=0){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	public static float mul(float a, float b){
+		float c = a*b;
+		if(c<100){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	public static long turnOn(long accNo){
+		if(accNo>0){
+			System.out.println("accNo is greater than 0");
+		}
+		else{
+			System.out.println("accNo is lesser than 0");
+		}
+	}
+}
+	

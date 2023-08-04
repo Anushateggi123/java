@@ -1,3 +1,5 @@
+//get method and enum
+
 public class Speaker{
 	String name;
 	String power;

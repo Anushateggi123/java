@@ -1,3 +1,5 @@
+//string using method
+
 public class MobileString{
 	public static void main(String[] args){
 		String brandName="one plus";//literals
